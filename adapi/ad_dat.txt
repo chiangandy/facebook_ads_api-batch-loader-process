@@ -1,0 +1,15 @@
+#
+#
+# 1. data_type: 'CMP' - campaign, 'ADS' - adset, 'ADG' - adgroup, 'CRT' - creative
+# 2. action : 'A' - append, 'D' - delete
+# if it is for campaign
+# 3. campaign_name :
+# 4. campaign_status :
+# if it is for data set
+#
+# exmple
+#
+CMP,D,cmp_125_S00171087_20141126_c02,PAUSE
+CMP,D,cmp_125_S00171087_20141126_c03,PAUSE
+
+

@@ -1,0 +1,15 @@
+#
+#
+# parameter mapping explain
+# [action_code], [audience_name], [web_url_pattern], period_day, status
+# action_code 		: it is only can be 'A' and 'D', since we use auidence_name as a item index, so if action is A and audience_name is found in list, it will be a update action, otherwise it will be insert.
+# audience_name 	: in our program logic it should be eunique and it cannot be change whenever it is inserted.
+# web_url_pattern 	: it is a web match data, it can be multiple with "||" saperate 
+# period_day		: a period of day
+# status			: it is only can be 'PAUSE' and 'ACTIVE'
+# exmple
+#
+A,125_S00171087_20141126_c02,saleNo=andyS00171077||saleNo=S00171088||saleNo=S00171081,24,PAUSE
+A,125_S00171087_20141126_c03,saleNo=S00171066||saleNo=S00171044,20,PAUSE
+
+

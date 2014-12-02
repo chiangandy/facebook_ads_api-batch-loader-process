@@ -1,0 +1,6 @@
+{
+
+        "require": {
+        "facebook/php-ads-sdk": "2.2.*"
+    }
+}
